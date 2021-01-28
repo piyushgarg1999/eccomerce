@@ -169,4 +169,5 @@ def SuccessPage(request,slug):
 
 	context ={'product':product,}
 	print("mychanges")
+	print("secondchanges")
 	return render(request,'app/successpage.html',context)
