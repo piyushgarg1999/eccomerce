@@ -16,6 +16,7 @@ stripe.api_key='sk_test_51Hwk3xHnmBUEg3J6hroVbskTMYEaemtSaXyXNXrdw2tngochUvV3QTS
 
 class TemplateMyOrderListView(TemplateView):
 	template_name='app/myorder.html'
+	print("piyushgarg")
 
 
 class ProductList(ListView):
